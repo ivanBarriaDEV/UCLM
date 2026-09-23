@@ -1,0 +1,1 @@
+fimplicit(@(x,y) x.^2 - y.^2 - 1, [-4 4 -4 4], 'LineWidth', 2); grid on; axis equal; xlabel('Eje Real (x)'); ylabel('Eje Imaginario (y)'); title('Frontera Re(z^2) = 1');
